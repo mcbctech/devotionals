@@ -58,7 +58,7 @@ body {
 	background-color: #f9f9f9;
 	color:#292525;
 	font-family: "Garamond";
-	font-size:var(--space-s);
+	font-size:var(--space-s-m);
 
 }
 
@@ -69,6 +69,10 @@ ul {
 }
 
 /* taken from: https://andy-bell.co.uk/my-favourite-3-lines-of-css/?utm_source=tldrnewsletter */
+
+main, header {
+	margin: 0 var(--space-m);
+}
 
 .flow > * + * {
     margin-block-start: var(--flow-space, 1em);
